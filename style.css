@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.container{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    outline: none;
+}
+.calci{
+    background-color: rgb(100, 100, 100);
+    padding: 15px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 270px;
+    border: none;
+    border-radius: 20px;
+    text-align: end;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+button{
+    height: 55px;
+    border: none;
+    width: 55px;
+    border-radius: 50px;
+    margin: 2px;
+    font-size: 17px;
+    font-weight: bold;
+}
